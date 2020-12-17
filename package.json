@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-02-feedback",
+  "name": "goit-react-hw-02-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dzBogdan.github.io/goit-react-hw-02-feedback",
+  "homepage": "https://dzBogdan.github.io/goit-react-hw-02-phonebook",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
@@ -11,6 +11,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "shortid": "^2.2.16",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -19,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://github.com/dzBogdan/goit-react-hw-02-phonebook"
   },
   "eslintConfig": {
     "extends": [
